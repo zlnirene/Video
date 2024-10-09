@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+}
+
+.content {
+    margin-top: 2%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+header img {
+    height: 50px;
+}
+
+.logo{
+    width: 0;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+header h1 {
+    margin-left: 10%;
+}
+
+nav {
+    clear: both;
+}
+
+nav ul {
+    margin-top: 5%;
+}
+
+section {
+    margin-top: 2%;
+
+}
+
+footer {
+    margin: 3%;
+    text-align: center;
+}
+
+section p {
+    margin-top: 2%;
+}
+
+.homepict {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+#paragraf {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.huruf {
+    font-size: 1rem;
+    font-style: italic ;
+}
+
+.warna {
+    background-color: blanchedalmond;
+}
+
+.huruf-tebal {
+    font-style: initial;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+}
+
+
+h2 {
+    color: plum;
+    border: 1px dashed purple;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h6 {
+    background-color: rgb(254, 183, 255);
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+}
+
+p {
+    border: 1px solid rgb(216, 187, 255);
+    background-color: mistyrose;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(216, 187, 255);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+ul li {
+    color: #fff;
+    background: rgb(216, 187, 255);
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+} 
+
+ul li a {
+    color: #fff;
+}
+
+ul li:hover {
+    background: rgb(254, 183, 255);
+    cursor: pointer;
+}
+
+ul li ul {
+    background-color: rgb(254, 183, 255);
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+.pictset{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    }
+
+h4 {
+    border: 1px solid rgb(216, 187, 255);
+    background-color: rgb(254, 165, 186);
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
